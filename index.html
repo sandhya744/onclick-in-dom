@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="image"><br>
+    <center>
+    <button style=background-color:rgb(0,204,255); onClick="cat()">Cat🐈:click here to see my image</button><br><br>
+    <button style=background-color:rgb(0,204,255); onClick="dog()">Dog🐶:click here to see my image</button><br><br>
+    <button style=background-color:rgb(0,204,255); onClick="panda()">Panda🐼:click here to see my image</button></center>
+    <script>
+         let img=document.getElementById("image")
+         image.style.marginLeft="550px"
+        function cat(){
+            image.style.background="url(./catlove.jpg)"
+            image.style.height="210px";
+            image.style.width="210px";
+            image.style.backgroundSize="210px"
+            image.style.boxShadow ="3px 3px 3px black";
+            
+        }
+        function dog(){
+          
+            image.style.background="url(./doglove.jpeg)"
+            image.style.height="210px";
+            image.style.width="210px";
+            image.style.backgroundSize="200px"
+            image.style.backgroundPosition="center";
+            image.style.boxShadow ="3px 3px 3px black";
+            
+        }
+        function panda(){
+            
+            image.style.background="url(./pandalove.jpg)"
+            image.style.height="210px";
+            image.style.width="210px";
+            image.style.backgroundSize="210px"
+            image.style.backgroundPosition="center";
+            image.style.boxShadow ="3px 3px 3px black";
+            
+        }
+
+
+
+   </script>
+</body>
+</html>
