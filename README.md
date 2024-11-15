@@ -1,0 +1,2 @@
+# onclick-in-dom
+onclick
